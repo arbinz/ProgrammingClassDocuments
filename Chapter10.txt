@@ -1,0 +1,36 @@
+Self Check 26-36
+
+26
+Source: Button
+Listener: Listener
+
+27
+Because clickListener implements the ActionListener Class
+
+28
+You don’t call it manually. It is called when the button is clicked
+
+29
+Direct access is much easier than passing an argument to the constructor
+
+30
+declare it as final to fix the issue
+
+31
+add the label to the panel, then add the button
+
+32
+actionPerformed is not connected to that variable
+
+33
+The timer needs to call a method whenever an interval of time ends. it is the ActionPerformed method of the listener that is called.
+
+34
+Moved rectangles will not be painted
+rectangle will be stationary until its repainted by an outside method
+
+35
+the mouse position is known. not the amount of movement
+
+36
+MouseListener interface is implemented. 5 methods come with it.
