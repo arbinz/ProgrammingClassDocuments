@@ -1,0 +1,18 @@
+Self Check 16-23
+16.
+The exception was thrown, so it is still 100
+17.
+if (amount < 0) {throw new IllegalArgumentException( "Negative amount");}
+18.
+scanner succeeds, file exists. nextInt throws NoSuchElementException, not an IOException. Its not caught. The file terminates.
+19.
+programmers should check that array values are actually valid instead of solving the exception
+20.
+No. You can catch both the same way.
+21.
+1: supply a throws clause
+2: if it is null, a nullpointerexception will be thrown, so it will not close. fix with try or finally clause
+22.
+pass the message to IllegalArgumentException superclass
+23.
+since corruption cannot be controlled by the programmer, it should be a checked exception.it would be wrong to extend unnecessary exceptions, like RuntimeException or IllegalArgumentException, but IOException would work.
