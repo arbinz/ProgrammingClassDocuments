@@ -1,0 +1,66 @@
+1. What are all the permutations of the four letter word beat?
+beat
+beta
+baet
+bate
+btea
+btae
+ebat
+ebta
+eabt
+eatb
+etba
+etab
+abet
+abte
+aebt
+aetb
+atbe
+ateb
+tbea
+tbae
+teba
+teab
+tabe
+taeb
+
+2. Our recursion for the permutation generator stops at the empty string. What simple modification would make the recursion stop at strings of length 0 or 1?
+change line 35 to
+
+if (word.length() == 1)
+
+3. Why isn’t it easy to develop an iterative solution for the permutation generator?
+You cannot really use an iterative solution, since you would need to have a much larger number of variables to keep track of. This would not be efficient storage-wise, and it would be much more CPU intensive.
+
+4. Implement a SubstringGenerator that generates all substrings of a string. For example, the substrings of the string "rum" are the seven strings "r", "ru", "rum", "u", "um", "m", "" Hint: First enumerate all substrings that start with the first character. There are n of them if the string has length n. Then enumerate the substrings of the string that you obtain by removing the first character. Test it using your first or last name. Code snippet for chapter 13 assignment packet.
+
+import java.util.Scanner;
+
+public class Substrings
+{
+	
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Computer! Tell me the substring of:");
+		String str = sc.next();
+		sbstr(str);
+		sc.close();
+	}
+	
+	public static void sbstr(String word)
+	{
+		if (word.length() == 1)
+		{
+			System.out.println(word);
+			return;
+		} else
+		{
+			System.out.println(word);
+			sbstr(word.substring(0, word.length() - 1));
+			sbstr(word.substring(1, word.length()));
+		}
+		
+	}
+	
+}
