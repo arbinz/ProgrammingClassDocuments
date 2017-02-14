@@ -1,0 +1,11 @@
+5.
+about 37 seconds
+
+6.
+an arc/parabola
+
+big o notation is used in computer science. when it is used, it quantifies values 
+such as amount of data. the more data used, the slower the process. Big o is
+satisfied when the value of both sides of the equal sign are functionally the
+same. definition of big o: f(n)=O(g(n)) if there exist constants N and C such that
+|f(n)| <C|g(n)| for all n>N.
