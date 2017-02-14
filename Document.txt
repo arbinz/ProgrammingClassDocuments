@@ -1,0 +1,25 @@
+1. Describe the insertion sort algorithm O(n2) and under what circumstances is it valuable? 
+insertion sort is a comparison based sorting algorithm that sorts items in an array or list as they are added.
+insertion sorting is useful when you need to add items to a list and keep it constantly sorted in an order, be it ascending or descending
+
+2. What is this symbol: ? and how is it important in Big-Oh notation? 
+? is the  greek letter theta
+it checks to see if a value is between two other values
+
+3. Briefly describe the merge sort and why it out performs selection and insertion sorts (mostly). 
+merge sort divides the values of the array into two arrays that each contain half of the data, then divides those again, and so on until all data points are alone. it then combines the tiny arrays two at a time and sorts them as it combines them until the whole array is together again and in order.
+merge sort does the same functions, but does far fewer calcuations to sort the list
+
+4. Describe the linear search process and give its Big-Oh notation.
+linear search takes numbers of increasing value, searches arrays for matches, then returns them to be added to an array if/when they are found, then continues with increasing values until the whole array/list has been searched, and all values returned.
+O(n)
+
+5.  Describe the binary search process and give its Big-Oh notation. 
+binary search splits the sorted array in half and checks to see if the value being searched for is greater than or less than the searched value. then the array of all values greater than or less than based on the value of the search is divided in half again, and again until the proper data point is found.
+O(log n)
+
+6. Answer self check items 27-30 on page 660.
+27. Comparable interface is not implemented
+28. BankAccount needs to implement Comparable interface for the compareTo method
+29. Use it so that you know where to insert the value so the array will stay sorted for the use of binary search
+30. So that you know if a value is present when 0 is returned.
