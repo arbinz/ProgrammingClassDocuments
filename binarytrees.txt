@@ -1,0 +1,21 @@
+-A node only ever has up to two children.
+-the parent node is a middle value, the smallest value (left child) is on the left, the largest (right child) is on the right
+-if there are no subtrees, a node is called a leaf
+-the top of the tree is called the root
+-unbalanced trees: most data is one one side. random data is usually balanced, but ordered data usually is
+-ordered trees are slow
+-Reasons to use:
+	Search, insert, delete quickly
+	Ordered arrays are bad at both insertions and deletions
+	finding in linked lists is slow
+	time needed to perform an operation on a tree is 0
+	trees are generally more efficient if you need to perform many types of operation
+
+-Three types of traversal
+	in order: aim for smallest first. Start with the left child. Prioritises left children
+	Pre Order: start with root, cycle down through left children, jump up one parent, go 	to right child
+	post order: check both children of all nodes
+
+-finding nodes
+	focus on the root
+	use ifs and whiles, and greater than/less than searches
