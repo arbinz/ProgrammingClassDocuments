@@ -1,0 +1,10 @@
+1) Java is object oriented
+2) Java is up to version 8
+3) More than 95% of desktops run java
+4) Java was originally called Oak
+5) Java was originally developed by Sun Microsystems
+6) Java was originally designed for interactive TV, but the digital cable industry was not ready
+7) The median salary for a Java developer in the U.S. is $83,975. There are 9 million Java developers worldwide
+8) After the programming language C, Java ranks No. 2 in popularity among programming languages.
+9) The JUnit testing framework is the top Java technology, used by more than four out of five developers. Jenkins is second, used by 70% of developers.
+10) Java’s official release date was May 23, 1995
